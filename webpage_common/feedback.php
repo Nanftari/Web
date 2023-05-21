@@ -15,8 +15,8 @@ if ( ! $terms) {
 //创建MySQL连接变量
 $servername = "localhost";
 $username = "root";
-$password = "TheEdenland";
-$dbname = "feedback";
+$password = "password;
+$dbname = "databasename";
  
 // 创建连接，引用上文连接变量值
 $conn = mysqli_connect($servername, $username, $password, $dbname);
