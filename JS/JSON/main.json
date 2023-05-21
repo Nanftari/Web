@@ -1,0 +1,388 @@
+{
+	"//" : "这个文件储存了服务器官网所有页面和子页面的语言文本信息",
+	"示例": {
+		"简体中文": "",
+		"English": "",
+		"正體中文": ""
+	},
+	"sidebar_text_1": {
+		"简体中文": "点我送管理员",
+		"English": "Be Admin",
+		"正體中文": "點擊贈管理員"
+	},
+	"sidebar_text_2": {
+		"简体中文": "卫星地图",
+		"English": "Map",
+		"正體中文": "遙感地圖"
+	},
+	"sidebar_text_3": {
+		"简体中文": "服务器介绍",
+		"English": "Introduction",
+		"正體中文": "伺服器介紹"
+	},
+	"sidebar_text_4": {
+		"简体中文": "加入我们",
+		"English": "Join us",
+		"正體中文": "加入我們"
+	},
+	"sidebar_text_5": {
+		"简体中文": "赞助我们",
+		"English": "Supprot us",
+		"正體中文": "資助我們"
+	},
+	"sidebar_text_6": {
+		"简体中文": "服务器规则",
+		"English": "Rules",
+		"正體中文": "伺服器規章"
+	},
+	"sidebar_text_7": {
+		"简体中文": "公共文件",
+		"English": "Files",
+		"正體中文": "公開檔案"
+	},
+	"sidebar_text_8": {
+		"简体中文": "画廊",
+		"English": "Gallery",
+		"正體中文": "畫廊"
+	},
+	"sidebar_text_9": {
+		"简体中文": "关于本站",
+		"English": "About us",
+		"正體中文": "關於此站"
+	},
+	"sidebar_text_10": {
+		"简体中文": "反馈",
+		"English": "Feedback",
+		"正體中文": "反饋"
+	},
+	"header_1": {
+		"简体中文": "首页",
+		"English": "Home",
+		"正體中文": "主頁"
+	},
+	"header_2": {
+		"简体中文": "博客",
+		"English": "Blog",
+		"正體中文": "部落格"
+	},
+	"header_3": {
+		"简体中文": "论坛",
+		"English": "Forum",
+		"正體中文": "論壇"
+	},
+	"header_4": {
+		"简体中文": "反馈",
+		"English": "Feedback",
+		"正體中文": "反饋"
+	},
+	"donate_1": {
+		"简体中文": "自愿赞助",
+		"English": "Voluntary Donation",
+		"正體中文": "自願資助"
+	},
+	"donate_2": {
+		"简体中文": "本服务器为公益服，永久免费，但玩家可以选择自愿赞助服务器<br>自愿资助的玩家将被列入服务器赞助者名单，玩家可选择匿名<br>赞助资金单次最大不得超过50元，且一周最多只能赞助2次<br>",
+		"English": "Our server is free for everybody forever,but you can donate us in voluntary.Those who donated will be written into a thank-list,and he/she can choose to hide his/her name.A person can't donate over 7$ each time,and only can donate twice a week.",
+		"正體中文": "本伺服器為永久免費之公益服，玩家可據自己的實際情況自願資助伺服器<br>已資助的玩家將被列入鳴謝名單，玩家可選擇匿名<br>單次資助不得大於220圓(HK 56圓，MO 58圓，CNY50圓)，單星期內不得資助超過兩次。"
+	},
+	"donate_3": {
+		"简体中文": "捐助渠道：",
+		"English": "Donation methods:",
+		"正體中文": "資助路徑："
+	},
+	"donate_4": {
+		"简体中文": "*支付方式：微信（左）| 支付宝（右）",
+		"English": "*Suppoted Payments:Wechat(L) | Alipay(R)",
+		"正體中文": "*支付方灋：微信（左）| 支付寶（右）"
+	},
+	"donate_5": {
+		"简体中文": "undifined",
+		"English": "",
+		"正體中文": ""
+	},
+	"donate_6": {
+		"简体中文": "查看服务器资金记录",
+		"English": "Money records",
+		"正體中文": "查閱伺服器流水賬"
+	},
+	"intro_0": {
+		"简体中文": "服务器介绍",
+		"English": "Introductions",
+		"正體中文": "伺服器介紹"
+	},
+	"intro_1": {
+		"简体中文": "本服务器基于百度智能云",
+		"English": "Our server is based on Baidu Smart Cloud",
+		"正體中文": "本伺服器基於「百度智能雲」"
+	},
+	"intro_2": {
+		"简体中文": "配置：Xeon Gold 6271C 1C2T，4GB DDR4，6Mbps<br>版本及服务端：1.19.4 Purpur<br>使用插件：Spark，FartherViewDistance，Geyser，GeyserHacks，eBackup，LaggRemover，Dynmap，Via三件套，轻量自动公告，SkinRestorer，BlessingSkinSync,ProtocalLib,AuthMeReloaded<br>",
+		"English": "Hardware: CPU:Xeon Gold 6271C 1C2T;RAM:4GB;Network:6Mbps<br>Software:Minecraft Server:Purpur 1.19.4<br>Plugins:Spark,FartherViewDistance,Geyser,GeyserHacks,eBackup,LaggRemover,Dynmap,ViaverSeries,LiteAnnounce,SkinRestorer,BlessingSkinSync,ProtocalLib,Authme<br>",
+		"正體中文": "硬體：<br>中央處理器：志強金牌6271C單核心雙線程<br>內記憶體：4GB DDR4<br>網路：6Mbps<br>軟體：麥塊伺服端版本：1.19.4 Purpur<br>伺服端插體：Spark，FartherViewDistance，Geyser，GeyserHacks，eBackup，LaggRemover，Dynmap，Via三件套，輕量自動公告，SkinRestorer，BlessingSkinSync,ProtocalLib,AuthMeReloaded<br>"
+	},
+	"intro_3": {
+		"简体中文": "改动：",
+		"English": "Changes:",
+		"正體中文": "變更："
+	},
+	"intro_4": {
+		"简体中文": "1.怪物生成半径变为一半。<br>2.生物生成最大数降低。<br>3.可以骑某些生物。<br>4.世界边界为8192格。<br>5.自动公告插件会发出骂Bugjump的公告。<br>",
+		"English": "1.The range of Mob generation is as a half as default.<br>2.The max amount of mobs is reduced.<br>3.Player can ride on more entitiies,not just those in Vanilla.<br>4.The borders of each dimension are reduced to 8192blocks.<br>5.Player will receive an announcement of the OP's complaints to Mojang.<br>",
+		"正體中文": "1.怪物生成半徑減為一半。<br>2.實體最大數降低。<br>3.玩家可以騎上某些原版不能騎行的實體。<br>4.世界邊際調整為8192格。<br>5.輕量自動公告插體會定時發出辱罵Mojang的文本。<br>"
+	},
+	"intro_5": {
+		"简体中文": "服务器內容：",
+		"English": "Contents:",
+		"正體中文": "伺服器內容："
+	},
+	"intro_5_1": {
+		"简体中文": "本服务器为极限模式，纯净生存，原版玩法，可生电，允许离线模式玩家登录。",
+		"English": "We're a pure extremely survival server,allowing most of the gameplays in Vanilla.We support to use offline-mode to sign in.",
+		"正體中文": "本伺服器採用極限生存模式，使用原版玩法，並為離線模式。(注：這麼做的原因並不是我們是非正版玩家，而是為了方便使用如添加機器人等功能)"
+	},
+	"intro_5_2": {
+		"简体中文": "虽然是极限模式，但满足一定条件的玩家可以复活，详情请看",
+		"English": "Although we're playing in extreme-mode,players still can rebirth if they have reached the conditions in the ",
+		"正體中文": "雖然本服採用了極限模式，但滿足一定條件的死亾玩家仍可復活，詳見"
+	},
+	"intro_5_3": {
+		"简体中文": "服务器规则",
+		"English": "RULES.",
+		"正體中文": "伺服器規章"
+	},
+	"intro_5_4": {
+		"简体中文": "因为本服务器为离线模式，所以为了防止有人冒用其他玩家的ID，特意安装了AuthMe插件，关于如何使用该插件，请见",
+		"English": "Because we're an offline server,so in order to prevent impersonation of player,we have installed the plugin AuthMe.About how to use this plugin,please read the ",
+		"正體中文": "因本伺服器為離線模式，所以為防止惡意冒充其他玩家，我們特意安裝了AuthMe登錄插件，關於該插件的使用請看"
+	},
+	"intro_5_5": {
+		"简体中文": "服务器规则",
+		"English": "RULES.",
+		"正體中文": "伺服器規章"
+	},
+	"intro_5_6": {
+		"简体中文": "服务器为公益服，唯一收入来源为服务器玩家自愿非义务性赞助",
+		"English": "There's no charge in our server,the only source of our money is players' donations.",
+		"正體中文": "本伺服器為公益服，唯一收入來源為玩家自願之資助。"
+	},
+	"intro_5_7": {
+		"简体中文": "---赞助我们",
+		"English": "-- Would like to donate us?",
+		"正體中文": "---資助我們"
+	},
+	"intro_5_8": {
+		"简体中文": "本服务器已安装Mineskin和BlessingSkin两个皮肤站所对应的插件，有需要使用皮肤的玩家可自行到相应皮肤站上传皮肤。",
+		"English": "Our server has been installed two plugins of skin-stations(Mineskin and BlessingSkin),if you would like to use your skin in our server,please upload it to one of these skin-stations.",
+		"正體中文": "本伺服器已安裝Mineskin及BlessingSkin兩個皮膚站插體，有使用皮膚的需求的玩家請自行上傳皮膚至二者之一。"
+	},
+	"intro_5_9": {
+		"简体中文": "服务器重要地点表格",
+		"English": "The Important Places of Our World.",
+		"正體中文": "伺服器重要地點表格"
+	},
+	"intro_6_1": {
+		"简体中文": "服务器存档于2018年8月31日创建，创建版本为1.8.1，点击以下载",
+		"English": "Our Minecraft world was created in Oct.31 2018,the origin version was 1.8.1.Click here to download the ",
+		"正體中文": "伺服器存檔創建於R.O.C 107秊8月31日，創始版本為1.8.1。點擊下載"
+	},
+	"intro_6_2": {
+		"简体中文": "版本历史",
+		"English": "Version History",
+		"正體中文": "版本歷史"
+	},
+	"intro_6_3": {
+		"简体中文": "记录表格。",
+		"English": "(.xlsx in SPCN).",
+		"正體中文": "記錄表格(使用簡體中文)"
+	},
+	"rules_1": {
+		"简体中文": "服务器规则",
+		"English": "Rules",
+		"正體中文": "伺服器規章"
+	},
+	"rules_2": {
+		"简体中文": "服务器一般规则：",
+		"English": "Common Rules:",
+		"正體中文": "伺服器一般規章"
+	},
+	"rules_3": {
+		"简体中文": "1.禁止恶意发言，攻击他人。<br>2.禁止恶意使用打火石，高频红石，卡服机，活塞，TNT等。<br>3.禁止传播或讨论任何违法违政信息。<br>4.禁止传播淫秽不良信息。<br>5.禁止刷屏。<br>6.外挂方面：允许矿透、自动瞄准、自动攻击、快速切换、范围自动攻击、连点，但以上操作不能针对玩家，否则视为违规；其余的外挂操作(如非法飞行、非法高速移动、锁血等)一律禁止。<br>7.所有的玩家都必须登录以正常游戏，输入/register (密码) (密码) 以注册，输入/login (密码) 以登录，玩家不可将密码泄露给他人，且不要试图绑定邮箱(邮箱功能仍处于测试阶段)，若忘记密码，请联系服主。<br>8.未登录的玩家，背包栏会被临时性清空(登录后将会恢复)，所有未登录的玩家不可活动，不可与任何方块、实体等交互，登陆失败将会被自动踢出，屡次失败将导致封禁。<br>",
+		"English": "1.Do not revile or attack others<br>2.Do not abuse flint&stone,redstone,piston,tnt etc.<br>3.Do not talking about any politics involved or illegal topics.<br>4.Do not talking about any pornographic topics.<br>5.Do not frequently send messages.<br>6.Our server allows x-ray,auto attact(only in PVE),the others are banned.<br>7.All the players must sign up with AuthMe.",
+		"正體中文": "1.禁止惡意發言或攻擊他人。<br>2.禁止惡意使用打火石，高頻紅石，鞲鞴，TNT等。<br>3.禁止傳播或談論違法、涉政內容。<br>4.禁止傳播淫穢不良信息。<br>5.禁止刷屏。<br>6.本伺服器允許礦物透視、自動瞄準、自動攻擊、快速切換、范殺戮光環、連點，但不能針對玩家，否則視為違規；其餘等(如飛行、高速移動、鎖血等)一律禁止。<br>7.玩家必須登錄，輸入/register (密鑰) (密鑰) 以註冊，輸入/login (密鑰) 以登錄，玩家不能将密鑰洩露，且不要綁定電子郵箱，若忘記密鑰，請聯絡管理員。<br>8.未登錄的玩家，背包欄會被臨時清空(登錄後會恢復)，未登錄的玩家不可活動，不可與方塊、實體交互，登錄失敗將被自動踢出，多次失敗將被封禁。<br>"
+	},
+	"rules_4": {
+		"简体中文": "死亡复活和惩罚规则：",
+		"English": "Rules for death:",
+		"正體中文": "死亡復活及懲罰規章："
+	},
+	"rules_5": {
+		"简体中文": "因为本服为极限模式，玩家死后不能复活，但由于本服玩家较少，为防止玩家流失并增进游戏体验，本服会根据综合情况进行如下处理：<br><br>①如果玩家因为任意非正常原因(例如卡bug、别的玩家误伤等)导致死亡，则不会受到任何惩罚，并进行回档，成就统计不变。<br>②如果玩家因为正常原因死亡，可向服主申请复活，但玩家需要销毁八个不死图腾和自己身上任意两件装备(包括盔甲、打火石、剑、弓弩、盾、三叉戟及鞘翅)，未满足需求则不可被复活。复活后，生命值上限将会被永久-2（可累计，因此最多复活9次）。<br>注：仅服主或副服主有复活玩家的权力。（注：服主可能会在复活时随机给予一些微小的惩罚）",
+		"English": "The players who died can rebirth with destroying 8 undying-totems and 2 eqiupments,and their max health will be minished 2 points.<br>Those died from abnormol reasons can birth without any items and punishments.",
+		"正體中文": "因本服採用了極限模式，原則上玩家死後不能復活。但因為本服玩家甚少，為防止玩家流失，本服會根據實情進行如下處理：<br><br>①若玩家非正常死亡，不會有任何懲罰，檔案將恢復。<br>②若玩家正常死亡，可向管理員申請復活，玩家需銷毀八个不死圖騰及两件裝備(盔甲、工具和武器)。復活後，生命上限永久-2(可累計)。"
+	},
+	"rules_6": {
+		"简体中文": "<b>请各位玩家玩家遵守规则，若有异议或补充，请向服主反馈，发现有人违规，请向服主汇报，谢谢！</b>",
+		"English": "",
+		"正體中文": ""
+	},
+	"join_1": {
+		"简体中文": "服务器官方QQ群：650410730",
+		"English": "Official QQ group:650410730",
+		"正體中文": "伺服器QQ群：650410730"
+	},
+	"join_2": {
+		"简体中文": "服务器IP端口列表",
+		"English": "IP & Ports",
+		"正體中文": "伺服器IP及埠列表"
+	},
+	"join_3_1": {
+		"简体中文": " 名称及版本 ",
+		"English": "Names & Versions",
+		"正體中文": "名稱及版本"
+	},
+	"join_3_2": {
+		"简体中文": " IP地址 ",
+		"English": "IP Addr.",
+		"正體中文": "IP地址"
+	},
+	"join_3_3": {
+		"简体中文": " 端口 ",
+		"English": "Port",
+		"正體中文": " 埠 "
+	},
+	"join_3_4": {
+		"简体中文": " 快速切换 ",
+		"English": "Fast switch",
+		"正體中文": " 快速切換 "
+	},
+	"join_3_5": {
+		"简体中文": " 跨版本 ",
+		"English": "Multi-version",
+		"正體中文": " 多版本 "
+	},
+	"join_4_4": {
+		"简体中文": " 否 ",
+		"English": "No",
+		"正體中文": " 否 "
+	},
+	"join_4_5": {
+		"简体中文": " 是，1.7～1.19.X ",
+		"English": "Yes,1.7+ Any",
+		"正體中文": " 是，1.7～1.19.X"
+	},
+	"join_5_4": {
+		"简体中文": " 否 ",
+		"English": "No",
+		"正體中文": " 否 "
+	},
+	"join_5_5": {
+		"简体中文": " 否 ",
+		"English": "No",
+		"正體中文": " 否 "
+	},
+	"join_6_1": {
+		"简体中文": "附注：",
+		"English": "Cautions:",
+		"正體中文": "附註："
+	},
+	"join_6_2": {
+		"简体中文": "1.服务器为离线模式，离线模式玩家可以加入<br>2.服务器名称有Geyser的代表基岩版客户端专用，Geyser是一个能让基岩版加入Java版服务器的插件<br>3.如果你违反服务器规则，你将被永远移出白名单并封禁!<br>4.生存服有白名单，请联系服主告诉他你的ID<br>5.为防止盗号，服务器设有AuthMe登陆插件，请见<a href='rules.php'>服务器规则</a>",
+		"English": "1.Our server is offline.<br>2.Bedrock clients can join in pur server with Geyser's port.<br>3.If you have violated the RULES,you'll be removed from the whitelist and banned.<br>4.Please contact with administrator to register to the whitelist.<br>5.Our server has installed AuthMe.<br>See more informations at <a href='rules.php'>RULES</a>",
+		"正體中文": "1.伺服器為離線模式<br>2.上表中帶有Geyser的為基岩版入口<br>3.如果玩家違反伺服器規章，將被移出白名單并封禁!<br>4.伺服器有白名單，想要進被添加進去請聯繫管理員<br>5.伺服器帶有AuthMe插體，請見<a href='rules.php'>伺服器規章</a>"
+	},
+	"join_7": {
+		"简体中文": "附件：<a href='../Documents/players.xlsx'>服务器现有玩家列表</a>",
+		"English": "<a href='../Documents/players.xlsx'>Player List(.xlsx in Chinese)</a>",
+		"正體中文": "附件：<a href='../Documents/players.xlsx'>伺服器現有玩家列表</a>"
+	},
+	"main_alert": {
+		"简体中文": "<p class='alertText'>本网页目前还在测试中，一切内容均不代表其最终版本，且网页本身将存在许多bug，如果您有建议或有发现细节bug(重大bug站长已知)，请前往<i><a href='../webpage_common/feedback.html'>反馈页</a></i>报告给站长</p><button onclick='confirmed()'>确定</button>",
+		"English": "<p class='alertText'>This website is under testing,if you find any bug,please go to the<i><a href='../webpage_common/feedback.html'>Feedback</a></i>to report it to administrator.</p><button onclick='confirmed()'>Confirm</button>",
+		"正體中文": "<p class='alertText'>本網頁處於測試中，若發現BUG請前往<i><a href='../webpage_common/feedback.html'>反饋頁</a></i>報告給管理員</p><button onclick='confirmed()'>確認</button>"
+	},
+	"main_10": {
+		"简体中文": "一个破败穷酸的服务器",
+		"English": "A poor Minecraft Server",
+		"正體中文": "一個破敗窮酸的伺服器"
+	},
+	"main_20": {
+		"简体中文": "The Edenland是一个存档已有4年历史的破败穷酸<br>服务器，这里除了咸鱼没有别的玩家，所以服务器<br>建设依旧很落后",
+		"English": "The Edenland is a poor Minecraft Server with a four-years-old save.Here's no players except those almost never online.",
+		"正體中文": "The Edenland為一個檔案已有四秊歷史的破敗窮酸<br>伺服器，這裡除了死魚沒有別的玩家，所以伺服器<br>建設依舊很落後"
+	},
+	"main_30": {
+		"简体中文": "<a href='introduction.html'>服务器介绍<span></span></a>",
+		"English": "<a href='introduction.html'>Introduction<span></span></a>",
+		"正體中文": "<a href='introduction.html'>伺服器介紹<span></span></a>"
+	},
+	"main_40": {
+		"简体中文": "<a href='join.html'>加入服务器<span></span></a>",
+		"English": "<a href='join.html'>Join us<span></span></a>",
+		"正體中文": "<a href='join.html'>加入伺服器<span></span></a>"
+	},
+	"main_AT": {
+		"简体中文": "*服务器文章*",
+		"English": "*Articles*",
+		"正體中文": "*伺服器文章*"
+	},
+	"main_A1": {
+		"简体中文": "<h5>网页测试中</h5><p class='date'>2023</p><p class='arcs'>哼哼哼啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p>",
+		"English": "<h5>test</h5><p class='date'>2023</p><p class='arcs'>test</p>",
+		"正體中文": "<h5>測試</h5><p class='date'>2023</p><p class='arcs'>測試</p>"
+	},
+	"main_A2": {
+		"简体中文": "<h5>网页测试中</h5><p class='date'>2023</p><p class='arcs'>测试用</p>",
+		"English": "<h5>test</h5><p class='date'>2023</p><p class='arcs'>test</p>",
+		"正體中文": "<h5>測試</h5><p class='date'>2023</p><p class='arcs'>測試</p>"
+	},
+	"main_A3": {
+		"简体中文": "<h5>网页测试中</h5><p class='date'>2023</p><p class='arcs'>这一段文字只是测试用的</p>",
+		"English": "<h5>test</h5><p class='date'>2023</p><p class='arcs'>test</p>",
+		"正體中文": "<h5>測試</h5><p class='date'>2023</p><p class='arcs'>測試</p>"
+	},
+	"main_HT": {
+		"简体中文": "*服务器历史*",
+		"English": "*History*",
+		"正體中文": "*伺服器歷史*"
+	},
+	"main_H1": {
+		"简体中文": "创建存档（单人模式）",
+		"English": "Created world.(Single-mode)",
+		"正體中文": "創建檔案 (單人模式) "
+	},
+	"main_H2": {
+		"简体中文": "首次开服",
+		"English": "First set up the server.",
+		"正體中文": "初次開服"
+	},
+	"main_H3": {
+		"简体中文": "停服重回单人模式",
+		"English": "Return to single-mode",
+		"正體中文": "停服重回單人模式"
+	},
+	"main_H4": {
+		"简体中文": "再次开服",
+		"English": "Set up the server again.",
+		"正體中文": "再次開服"
+	},
+	"main_H5": {
+		"简体中文": "首次开发网站",
+		"English": "Starting develop website.",
+		"正體中文": "初次開發網站"
+	},
+	"main_H6": {
+		"简体中文": "开始重写网站",
+		"English": "Starting rewrite website.",
+		"正體中文": "開始重構網站"
+	},
+	"main_H7": {
+		"简体中文": "完成新版网页布局",
+		"English": "The layout of new website is completed.",
+		"正體中文": "完成新版網頁佈局"
+	},
+	"main_65535": {
+		"简体中文": "访问旧版网页",
+		"English": "View the old webpages.",
+		"正體中文": "前往舊版網頁"
+	}
+}

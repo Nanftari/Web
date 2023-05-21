@@ -1,0 +1,123 @@
+/*开关侧边栏的按钮的样式*/
+.openButton {
+	display: inline-block;
+	cursor: pointer;
+	padding-left: 40px;
+	color: white;
+	transition: 0.5s;
+	align-items: initial;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+  transition: 0.5s;
+  background-color: white;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+.change .bar2 {opacity: 0;}
+.change .bar3 {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+h1 {
+	padding-left: 10px;
+	color: white;
+	display: inline-block;
+	transition: 0.4s;
+}
+
+.headMargin {
+	padding-top: 8px;
+}
+
+@media screen and (min-width: 721px) {
+
+	h1 {
+		margin-left: 0.7rem;
+		font-size: 1.0rem;
+	}
+
+}
+
+@media screen and (max-width: 720px) {
+
+	h1 {
+		margin-left: 1.2rem;
+		font-size: 1.0rem;
+	}
+}
+
+header {
+	position: fixed;
+	height: calc(80px + 0.1vh);
+	width: 100%;
+	margin-left: -30px;
+	margin-top: -40px;
+	transition: 0.5s;
+	background-image: linear-gradient(to bottom right, rgba(28, 152, 241, 1), rgba(1, 13, 71, 1));
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+header .night {
+	position: fixed;
+	height: calc(80px + 0.1vh);
+	width: 100%;
+	margin-left: -30px;
+	margin-top: -40px;
+	transition: 0.5s;
+	background-image: linear-gradient(to bottom right, rgb(3, 22, 36), rgb(1, 4, 17));
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.headHyperlink {
+	cursor: pointer;
+	font-size: 0.6rem;
+	padding-top: 12px;
+	color: white;
+	text-decoration: none;
+	padding-left: 20px;
+	transition: 0.2s;
+}
+
+.headHyperlink:hover {
+	text-decoration: underline;
+}
+.headHyperLinkDiv {
+	padding-left: 2vw;
+	display: inline-block;
+}
+
+.languageList {
+	position: fixed;
+	z-index: 10000;
+	color: rgba(50, 50, 50, 1);
+	font-size: 0.6rem;
+	display: none;
+	width: 4rem;
+	margin-left: calc(4vw + 4rem + 350px);
+	line-height: 1rem;
+	/*margin-top: 40px;*/
+	background-color: rgba(240, 240, 240, 1);
+	border-style: solid;
+	border-color: rgba(150, 150, 150, 1);
+	border-width: 1px;
+	transition: all 0.5s;
+}
+
+.languages {
+	cursor: pointer;
+}
+
+#headerTriangle {
+	transition: all 0.2s;
+}

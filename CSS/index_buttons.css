@@ -1,0 +1,49 @@
+.index_button {
+		border-radius: 30px;
+		width: 75%;
+		height: 75px;
+		background-color: #F0F8FF;
+		text-align: center;
+		border-color: skyblue;
+		display: inline-block;
+		font-size: 125%;
+		color: black;
+		cursor: pointer;
+		margin-bottom: 5px;
+		line-height: 25px;
+		overflow: hidden;
+		transition: 0.7s;
+	}
+
+	.index_button span {
+		position: relative;
+		transition: 0.7s;
+		cursor: pointer;
+		display: inline-block;
+	}
+
+	.index_button span:after {
+		content: '》》》';
+		position: absolute;
+		transition: 0.7s;
+		opacity: 0;
+		top: 0;
+		right: -30px;
+	}
+
+	.index_button:hover span {
+		padding-right: 45px;
+	}
+
+	.index_button:hover span:after {
+		opacity: 1;
+		right: 5;
+	}
+
+	.index_button:hover {
+		background-color: #87CEFA;
+	}
+
+	.index_button:active {
+		background-color: skyblue;
+	}

@@ -1,0 +1,49 @@
+.index_button_rickroll {
+		border-radius: 30px;
+		width: 75%;
+		height: 75px;
+		background-color: pink;
+		text-align: center;
+		border-color: firebrick;
+		display: inline-block;
+		font-size: 125%;
+		color: black;
+		cursor: pointer;
+		margin-bottom: 5px;
+		line-height: 25px;
+		overflow: hidden;
+		transition: 0.7s;
+	}
+
+	.index_button_rickroll span {
+		position: relative;
+		transition: 0.7s;
+		cursor: pointer;
+		display: inline-block;
+	}
+
+	.index_button_rickroll span:after {
+		content: '》》》';
+		position: absolute;
+		transition: 0.7s;
+		opacity: 0;
+		top: 0;
+		right: -30px;
+	}
+
+	.index_button_rickroll:hover span {
+		padding-right: 45px;
+	}
+
+	.index_button_rickroll:hover span:after {
+		opacity: 1;
+		right: 5;
+	}
+
+	.index_button_rickroll:hover {
+		background-color: palevioletred;
+	}
+
+	.index_button_rickroll:active {
+		background-color: hotpink;
+	}

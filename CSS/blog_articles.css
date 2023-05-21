@@ -1,0 +1,47 @@
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.date {
+	color: grey;
+    text-align: center;
+	font-size: 50%;
+}
+
+.para {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.img {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.subs {
+	color: grey;
+    text-align: center;
+	font-size: 75%;
+}
+
+.references {
+	color: grey;
+    margin-left: 20%;
+	font-size: 50%;
+}
+
+.warning {
+    color: red;
+}

@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>服务器已停运</title>
+		<meta charset="utf-8" />
+		<style>
+
+			body {
+				width: 35em;
+				margin: 0 auto;
+				font-family: Tahoma, Verdana, Arial, sans-serif;
+			}
+		</style>
+		<script type="text/javascript" src="../JS/fun.js"></script>
+	</head>
+	<body>
+		<h1>服务器已停运</h1>
+		<span>由于The Edenland服务器服主管理不善，本服务器已从 *</span>
+		
+
+		<span id="dateToday"></span>
+		<script>
+		  var d = new Date();
+		  document.getElementById("dateToday").innerHTML = d;
+		</script>
+		
+		<span>* 停止运行，服主已卷钱跑路(虽然也没啥钱可以卷的……)</span>
+		<button onclick="infiniteAlert()">别点我</button>
+	</body>
+</html>

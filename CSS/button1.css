@@ -1,0 +1,46 @@
+.button1 {
+		border-radius: 10px;
+		width: 500px;
+		height: 100px;
+		background-color: #F0F8FF;
+		text-align: center;
+		border-color: skyblue;
+		display: inline-block;
+		font-size: 125%;
+		color: black;
+		cursor: pointer;
+		margin-bottom: 1px;
+		line-height: 25px;
+		overflow: hidden;
+		text-decoration: none;
+		transition: 0.7s;
+	}
+
+	.button1 span {
+		position: relative;
+		transition: 0.7s;
+		cursor: pointer;
+		display: inline-block;
+	}
+
+	.button1 span:after {
+		content: '<<<';
+		position: absolute;
+		transition: 0.7s;
+		opacity: 0;
+		top: 0;
+		left: -20px;
+	}
+
+	.button1:hover span {
+		padding-left: 25px;
+	}
+
+	.button1:hover span:after {
+		opacity: 1;
+		left: 10;
+	}
+
+	.button1:hover {
+		background-color: #87CEFA;
+	}

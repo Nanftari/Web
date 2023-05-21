@@ -1,0 +1,175 @@
+/***
+ * ░░░░░░░░░░░░░░░░░░░░░░░░▄░░
+ * ░░░░░░░░░▐█░░░░░░░░░░░▄▀▒▌░
+ * ░░░░░░░░▐▀▒█░░░░░░░░▄▀▒▒▒▐
+ * ░░░░░░░▐▄▀▒▒▀▀▀▀▄▄▄▀▒▒▒▒▒▐
+ * ░░░░░▄▄▀▒░▒▒▒▒▒▒▒▒▒█▒▒▄█▒▐
+ * ░░░▄▀▒▒▒░░░▒▒▒░░░▒▒▒▀██▀▒▌
+ * ░░▐▒▒▒▄▄▒▒▒▒░░░▒▒▒▒▒▒▒▀▄▒▒
+ * ░░▌░░▌█▀▒▒▒▒▒▄▀█▄▒▒▒▒▒▒▒█▒▐
+ * ░▐░░░▒▒▒▒▒▒▒▒▌██▀▒▒░░░▒▒▒▀▄
+ * ░▌░▒▄██▄▒▒▒▒▒▒▒▒▒░░░░░░▒▒▒▒
+ * ▀▒▀▐▄█▄█▌▄░▀▒▒░░░░░░░░░░▒▒▒
+ * 单身狗在看着你
+ */
+/* 侧边栏菜单 */
+
+.sidebar {
+	border-radius: 0px 0px 0px 0px;
+	height: 100%;
+	/* 100% 全高 */
+	width: 0;
+	/* 0 宽度 - 用JavaScript更改 */
+	position: fixed;
+	/* 原地不动 */
+	z-index: 1;
+	/* 保持在顶部 */
+	top: 0;
+	left: 0;
+	background-color: #F0F8FF;
+	/*background-color: rgba(255,255,255,0.9);*/
+	border-right-color: skyblue;
+	border-top-color: skyblue;
+	border-bottom-color: skyblue;
+	border-left-color: skyblue;
+	/*定义边界颜色*/
+	overflow-x: hidden;
+	/* 禁用水平滚动 */
+	transition: 0.5s;
+	/*0.5 秒过渡*/
+	padding-top: -5rem;
+	/*隐藏滚动条：下面从上到下分别是Edge、Mozilla和Webkit的兼容性写法*/
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+.sidebar .night{
+	border-radius: 0px 0px 0px 0px;
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #071929;
+	border-color: rgb(203, 235, 248);
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: -5rem;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.sidebar::-webkit-scrollbar {
+	display: none;
+}
+
+p.pig {
+	text-align: center;
+	font-size: 25%;
+}
+
+/*复制并修改自index_buttons.css*/
+.index_button {
+	border-radius: 0px;
+	width: 100%;
+	height: 1.78rem;
+	background-color: #F0F8FF;
+	text-align: center;
+	border-color: skyblue;
+	display: inline-block;
+	color: black;
+	cursor: pointer;
+	margin-bottom: -1rem;
+	line-height: 1.8rem;
+	overflow: hidden;
+	transition: 0.7s;
+}
+.index_button .night{
+	border-radius: 0px;
+	width: 100%;
+	height: 1.78rem;
+	background-color: #071929;
+	text-align: center;
+	border-color: rgb(203, 235, 248);
+	display: inline-block;
+	color: white;
+	cursor: pointer;
+	margin-bottom: -1rem;
+	line-height: 1.8rem;
+	overflow: hidden;
+	transition: 0.7s;
+}
+
+@media screen and (min-width: 420px) {
+	.index_button {
+		font-size: 0.75rem;
+	}
+}
+
+@media screen and (max-width: 419px) {
+	.index_button {
+		font-size: 0.35rem;
+	}
+}
+
+.index_button span {
+	position: relative;
+	transition: 0.7s;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.index_button span:after {
+	content: '>>>';
+	position: absolute;
+	transition: 0.7s;
+	opacity: 0;
+	top: 0;
+	right: -0.3rem;
+}
+
+.index_button:hover span {
+	padding-right: 1.5rem;
+}
+
+.index_button:hover span:after {
+	opacity: 1;
+	right: 5;
+}
+
+
+.index_button:hover {
+	background-color: #87CEFA;
+}
+.index_button:hover .night{
+	background-color: #0c1114;
+}
+
+
+.index_button:active {
+	background-color: skyblue;
+}
+.index_button:active .night{
+	background-color: rgb(4, 10, 12);
+}
+
+.mainlinks {
+	text-decoration: none;
+	color: black;
+}
+.mainLinks .night {
+	text-decoration: none;
+	color: white;
+}
+
+/* 在高度小于 450 像素的小屏幕上，用更少的填充和更小的字体大小*/
+/*@media screen and (max-height: 450px) {
+	.sidebar {
+		padding-top: 15px;
+		width: 150px;
+	}
+
+	.index_button {
+		font-size: 80%;
+	}
+}*/

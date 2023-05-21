@@ -1,0 +1,47 @@
+/*This is a bug-fixed version for the back button of page"get_title.html" */
+	.button1a {
+		border-radius: 10px;
+		width: 200px;
+		height: 100px;
+		background-color: #F0F8FF;
+		text-align: center;
+		border-color: skyblue;
+		display: inline-block;
+		font-size: 125%;
+		color: black;
+		cursor: pointer;
+		margin-bottom: 15px;
+		line-height: 25px;
+		overflow: hidden;
+		text-decoration: none;
+		transition: 0.7s;
+	}
+
+	.button1a span {
+		position: relative;
+		transition: 0.7s;
+		cursor: pointer;
+		display: inline-block;
+	}
+
+	.button1a span:after {
+		content: '<<<';
+		position: absolute;
+		transition: 0.7s;
+		opacity: 0;
+		top: 0;
+		left: -20px;
+	}
+
+	.button1a:hover span {
+		padding-left: 50px;
+	}
+
+	.button1a:hover span:after {
+		opacity: 1;
+		left: 10;
+	}
+
+	.button1a:hover {
+		background-color: #87CEFA;
+	}

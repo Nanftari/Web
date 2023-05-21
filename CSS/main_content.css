@@ -1,0 +1,214 @@
+/* 样式页面内容 - 将页面内容送到右侧 */
+.theMain {
+	transition: margin-left .5s;
+	/* 过渡效果 */
+	padding: 20px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	z-index: 0;
+}
+
+p {
+	font-size: 0.8rem;
+	transition: 0.2s;
+}
+p .night {
+	font-size: 0.8rem;
+	transition: 0.2s;
+	color: white;
+}
+h1 .night {
+	color: white;
+}
+h2 .night {
+	color: white;
+}
+h3 .night {
+	color: white;
+}
+h4 .night {
+	color: white;
+}
+h5 .night {
+	color: white;
+}
+
+
+.main_images {
+	opacity: 1;
+	position: relative;
+	width: calc(100vw + 30px);
+	height: auto;
+	margin-left: -20px;
+	margin-right: -10px;
+	border: none;
+	z-index: -1;
+	background: none;
+	transition: all 0.5s;
+}
+
+.miniText {
+	z-index: 0;
+	margin-left: 4rem;
+	margin-top: -22em;
+	margin-bottom: 12em;
+}
+@media screen and (max-width: 1080px) {
+	.miniText {
+		margin-top: -18rem;
+	}
+}
+
+
+.miniTitle, .miniIntro, .toIntro a {
+	z-index: 1;
+	color: white;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.miniTitle {
+	font-size: 1.5rem;
+}
+
+.toIntro {
+	background-color: rgba(255,255,255,0);
+	padding: 15px 20px 15px 20px;
+	border-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 5px;
+}
+.toIntro span {
+	font-size: 125%;
+	padding-bottom: 15px;
+	position: relative;
+	transition: 0.7s;
+	cursor: pointer;
+	display: inline-block;
+}
+.toIntro span:after {
+	content: ' → ';
+	position: absolute;
+	transition: 0.7s;
+	opacity: 0;
+	top: 0;
+	right: -0.3rem;
+}
+
+.toIntro:hover span {
+	padding-right: 1.5rem;
+}
+
+.toIntro:hover span:after {
+	opacity: 1;
+	right: 5;
+}
+.toIntro:hover {
+	background-color: rgba(255,255,255,0.1);
+}
+.toIntro:active {
+	background-color: rgba(255,255,255,0.25);
+}
+
+h4 {
+	text-align: center;
+}
+
+.article_area {
+	display: flex;
+	align-items: stretch;
+}
+
+.article1 ,
+.article2 ,
+.article3 {
+	width: 33%;
+	background-color: rgb(222, 250, 234);
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: rgb(11, 194, 103) rgb(8, 83, 46) rgb(8, 83, 46) rgb(11, 194, 103);
+	display: inline-block;
+	text-align: left;
+	min-height: 300px;
+}
+
+.article1 .night,
+.article2 .night,
+.article3 .night{
+	width: 33%;
+	background-color: rgb(0, 43, 18);
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: rgb(0, 3, 2);
+	display: inline-block;
+	text-align: left;
+	min-height: 300px;
+}
+
+.article2 ,
+.article3 {
+	margin-left: 1em;
+}
+
+h5 {
+	font-size: 25px;
+	margin-top: 1em;
+	padding-left: 15px;
+}
+
+.date {
+	color: grey;
+	font-size: 8px;
+	padding-left: 15px;
+	margin-top: -5em;
+}
+
+.arcs {
+	font-size: 15px;
+	padding-left: 15px;
+}
+
+.history {
+	margin-left: 5%;
+}
+.histories {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+.logs {
+	display: block;
+	background-color: rgb(255, 245, 211);
+	border-radius: 4px;
+	border-style: solid;
+	border-color: rgb(250, 190, 101) rgb(243, 130, 55) rgb(243, 130, 55) rgb(250, 190, 101);
+	border-width: 2px;
+	margin-left: 20px;
+	width: 90%;
+	height: 25%;
+}
+.logs .night{
+	display: block;
+	background-color: rgb(43, 36, 14);
+	border-radius: 4px;
+	border-style: solid;
+	border-color: rgb(34, 24, 8);
+	border-width: 2px;
+	margin-left: 20px;
+	width: 90%;
+	height: 25%;
+}
+.logs h5 {
+	margin-top: 5px;
+}
+.logs h5 .night{
+	margin-top: 5px;
+	color: white;
+}
+
+.noTextDecoration {
+	text-decoration: none;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Join us -The Edenland</title>
+		<link rel="icon" href="../Images/icon/pig.ico">
+		
+		<script type="text/javascript" src="../JS/main_js.js"></script>
+		<script type="text/javascript" src="../JS/sleep.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="../CSS/main_root.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/main_sidebar.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/main_header.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/main_content.css">
+		
+	</head>
+	<body>
+		
+		
+		
+		<!-- 这个是侧边栏 -->
+
+		<?php include("sidebar.html"); ?>
+		
+		<div id="main" class="theMain">
+			
+			
+			<!--标题栏-->
+
+			<?php include("header.html"); ?>
+			
+			<div class="mainContent">
+				
+				
+				<h2 id="join_1" class="scriptum" style="font-size:300%;text-align:center">服务器官方QQ群:650410730</h2>
+				<hr />
+				<h3 id="join_2" class="scriptum" style="text-align:center;">服务器IP端口列表</h3>
+				
+				<table border='1px' width="100%" cellpadding="20" cellspacing="0" style="border-size: 1px;border-style: solid;border-color: black;text-align:center">
+					<tr>
+						<th id="join_3_1" class="scriptum"> 名称及版本 </th>
+						<th id="join_3_2" class="scriptum"> IP地址 </th>
+						<th id="join_3_3" class="scriptum"> 端口 </th>
+						<th id="join_3_4" class="scriptum"> 快速切换 </th>
+						<th id="join_3_5" class="scriptum"> 跨版本 </th>
+					</tr>
+					<tr>
+						<td> Purpur Java 1.19.4 </td>
+						<td> 182.61.28.58 </td>
+						<td> 25565 </td>
+						<td id="join_4_4" class="scriptum"> 否 </td>
+						<td id="join_4_5" class="scriptum"> 是，1.7～1.19.X </td>
+					</tr>
+					<tr>
+						<td> Geyser Bedrock 1.19.3x~7x </td>
+						<td> 182.61.28.58 </td>
+						<td> 19132 </td>
+						<td id="join_5_4" class="scriptum"> 否 </td>
+						<td id="join_5_5" class="scriptum"> 否 </td>
+					</tr>
+					<!--<tr>
+						<td> 备用服Java版 </td>
+						<td> 175.178.48.191 </td>
+						<td> 25565 </td>
+						<td> 否 </td>
+						<td> 是，1.7～1.19.2 </td>
+					</tr>
+					<tr>
+						<td> 备用服Geyser1.19.X </td>
+						<td> 175.178.48.191 </td>
+						<td> 19132 </td>
+						<td> 否 </td>
+						<td> 否</td>
+					</tr>
+					<tr>
+						<td> Waterfall 1.19.X </td>
+						<td> 175.178.48.191 </td>
+						<td> 32768 </td>
+						<td> 是 </td>
+						<td> 否 </td>
+					</tr>
+					<tr>
+						<td> Waterfall-Geyser 1.19.X </td>
+						<td> 175.178.48.191 </td>
+						<td> 32767 </td>
+						<td> 是 </td>
+						<td> 否 </td>
+					</tr>-->
+				</table>
+				
+				<div>
+					<p>
+						<b id="join_6_1" class="scriptum">
+						    附注及注释：
+						</b>
+                    </p>
+					<p id="join_6_2" class="scriptum">
+					1.服务器为离线模式，离线模式玩家可以加入<br>
+					2.服务器名称有Geyser的代表基岩版客户端专用，Geyser是一个能让基岩版加入Java版服务器的插件<br>
+					3.如果你违反服务器规则，你将被永远移出白名单并封禁!<br>
+					4.生存服有白名单，请联系服主告诉他你的ID<br>
+					5.为防止盗号，服务器设有AuthMe登陆插件，请见<a href='rules.php'>服务器规则</a>
+					<!--5.如果是第一次加入Waterfall，默认会转加入至生存服<br>
+					3.Waterfall本质上不是一个服务端，而是一个反代端，通过加入Waterfall反代端可以方便在生存服与备用服之间快速切换<br>
+					2.生存服与备用服不使用同一个世界，但背包数据互通<br>-->
+					</p>
+                </div>
+				
+					
+				
+				<hr />
+				<h4  id="join_7" class="scriptum" style="text-align:center">附件：<a href='../Documents/players.xlsx'>服务器现有玩家列表</a></h4>
+				
+				
+				
+			</div>
+			
+			
+		</div>
+		
+		
+		
+	
+	
+	
+	</body>
+</html>
