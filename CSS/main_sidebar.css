@@ -18,11 +18,12 @@
 	border-radius: 0px 0px 0px 0px;
 	height: 100%;
 	/* 100% 全高 */
+	display: none;
 	width: 0;
 	/* 0 宽度 - 用JavaScript更改 */
 	position: fixed;
 	/* 原地不动 */
-	z-index: 1;
+	z-index: 20000;
 	/* 保持在顶部 */
 	top: 0;
 	left: 0;
@@ -63,9 +64,21 @@
 	display: none;
 }
 
+#closeSidebarIcon {
+	color: skyblue;
+	position: absolute;
+	margin-left: 25%;
+	font-size: 500%;
+}
+
 p.pig {
 	text-align: center;
 	font-size: 25%;
+}
+@media screen and (max-width: 1540px) {
+	p.pig ,.thinsp{
+		display: none;
+	}
 }
 
 /*复制并修改自index_buttons.css*/
@@ -119,7 +132,7 @@ p.pig {
 	display: inline-block;
 }
 
-.index_button span:after {
+.index_button .scriptum:after {
 	content: '>>>';
 	position: absolute;
 	transition: 0.7s;
@@ -128,11 +141,11 @@ p.pig {
 	right: -0.3rem;
 }
 
-.index_button:hover span {
+.index_button:hover .scriptum {
 	padding-right: 1.5rem;
 }
 
-.index_button:hover span:after {
+.index_button:hover .scriptum:after {
 	opacity: 1;
 	right: 5;
 }
@@ -160,6 +173,18 @@ p.pig {
 .mainLinks .night {
 	text-decoration: none;
 	color: white;
+}
+.sidebarText {
+	display: inline-block;
+}
+
+#sidebarShadow {
+	background-color: rgba(0, 0, 0, 0.75);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 10000;
+	display: none;
 }
 
 /* 在高度小于 450 像素的小屏幕上，用更少的填充和更小的字体大小*/

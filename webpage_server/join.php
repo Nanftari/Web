@@ -45,15 +45,15 @@
 						<th id="join_3_5" class="scriptum"> 跨版本 </th>
 					</tr>
 					<tr>
-						<td> Purpur Java 1.19.4 </td>
-						<td> 182.61.28.58 </td>
+						<td> Purpur Java 1.20.1 </td>
+						<td> www.edenland.top </td>
 						<td> 25565 </td>
 						<td id="join_4_4" class="scriptum"> 否 </td>
-						<td id="join_4_5" class="scriptum"> 是，1.7～1.19.X </td>
+						<td id="join_4_5" class="scriptum"> 是，1.7～1.20.X </td>
 					</tr>
 					<tr>
-						<td> Geyser Bedrock 1.19.3x~7x </td>
-						<td> 182.61.28.58 </td>
+						<td> Geyser Bedrock 1.20.x </td>
+						<td> www.edenland.top </td>
 						<td> 19132 </td>
 						<td id="join_5_4" class="scriptum"> 否 </td>
 						<td id="join_5_5" class="scriptum"> 否 </td>

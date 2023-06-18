@@ -4,44 +4,62 @@
 		<meta charset="utf-8">
 		<title>Feedback -The Edenland</title>
 		<link rel="icon" href="../images/icon/pig.ico">
+		<script type="text/javascript" src="../JS/common.js"></script>
 		<link rel="stylesheet" href="../CSS/external/water.css">
 	</head>
 	<body>
-		<h1 style="font-size:500%;text-align:center">问题反馈</h1>
-		<p style="text-align:center"><a href="../index.html"><button class="button1"><span>返回</span><br>Back</button></a>
+		<h1 id='feedback_0' class='scriptum' style="font-size:500%;text-align:center">问题反馈</h1>
+
+
+				<!-- <a onclick="checkLanguageList()" id='earth' class="scriptum headHyperlink">🌏<span id="headerTriangle"></span></a> -->
+		<div id="languageList" class="languageList">
+			<a onclick="refreshText('简体中文');" class="languages">简体中文</a><br>
+			<a onclick="refreshText('正體中文');" class="languages">正體中文</a><br>
+			<a onclick="refreshText('English');" class="languages">English</a><br>
+		</div>
+		<style>
+			.languageList {
+				position: absolute;
+			}
+		</style>
+
+		<p id='feedback_1' class='scriptum' style="text-align:center"><a href='../index.html'><button class='button1'><span>返回</span><br>Back</button></a>
 		</p>
+
+
+
+
+
 		<hr />
 
 		<form action="feedback.php" method="post">
 		
 		
-	<label for="ID">您的邮箱<!--或Minecraft ID--></label>
+	<label id='feedback_2' class='scriptum' for="ID">您的邮箱<!--或Minecraft ID--></label>
 	<input type="text" id="ID" name="name">
 	
 	<br>
 		
 		
-	<label for="text">反馈内容</label>
+	<label id='feedback_3' class='scriptum' for="text">反馈内容</label>
 	<textarea type="text" id="text" name="feedback"></textarea>
 	
 	<br>
 	
-	<label for="selection">反馈对象</label> 
+	<label id='feedback_4' class='scriptum' for="selection">反馈对象</label> 
 	<select id="selection" name="type">
-		<option value="1" selected>网页</option>
-		<option value="2">服务器</option>
+		<option id='feedback_5' class='scriptum' value="1" selected>网页</option>
+		<option id='feedback_6' class='scriptum' value="2">服务器</option>
 	</select>
 	
-	<label style="color:red;">
-		<input type="checkbox" name="terms">
-		我已阅读并遵守<a href="web_intro.html">网站说明</a>
+	<label style="color:red;" id='feedback_7' class='scriptum'><input type='checkbox' name='terms'>我已阅读并遵守<a href='web_intro.html'>网站说明</a>
 	</label>
 	
 	<br>
 	
 	<br>
 	
-	<button onclick="alert('提交完成!')"><p>提交反馈</p></button>
+	<button onclick="alert('OK!')"><p id='feedback_8' class='scriptum'>提交反馈</p></button>
 	
 	
 	</form>

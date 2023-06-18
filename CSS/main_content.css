@@ -1,11 +1,14 @@
 /* 样式页面内容 - 将页面内容送到右侧 */
 .theMain {
+	width: 90vw;
+	margin-left: 5vw;
 	transition: margin-left .5s;
 	/* 过渡效果 */
 	padding: 20px;
 	overflow-y: auto;
 	overflow-x: hidden;
 	z-index: 0;
+	transition: 0.5s;
 }
 
 p {
@@ -53,9 +56,23 @@ h5 .night {
 	margin-top: -22em;
 	margin-bottom: 12em;
 }
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1080px) and (min-width: 801px) {
 	.miniText {
 		margin-top: -18rem;
+		margin-bottom: 10em;
+	}
+}
+@media screen and (max-width: 800px) and (min-width: 701px) {
+	.miniText {
+		margin-top: -16rem;
+		margin-bottom: 8em;
+	}
+}
+@media screen and (max-width: 700px){
+	.miniText {
+		font-size: 0.75rem;
+		margin-top: -12rem;
+		margin-bottom: 4em;
 	}
 }
 
@@ -111,51 +128,66 @@ h5 .night {
 	background-color: rgba(255,255,255,0.25);
 }
 
+
+.switch_buttons {
+	text-align: center;
+}
+.image_buttons {
+	padding: 1em 1em 1em 1em;
+}
+.image_buttons_button {
+	padding: 1em 1.5em 1em 1.5em;
+	border-style: solid;
+	border-color: grey;
+	background-color: rgb(238, 237, 237);
+	color: black;
+	border-radius: 0.5em;
+	transition: 0.2s;
+}
+.image_buttons_button:hover {
+	background-color: rgb(163, 160, 160);
+}
+
 h4 {
 	text-align: center;
 }
 
 .article_area {
 	display: flex;
-	align-items: stretch;
+	align-items: center;
+	overflow: auto;
+	flex-wrap: nowrap;
 }
 
-.article1 ,
-.article2 ,
-.article3 {
-	width: 33%;
+.main_articles {
+	flex-shrink: 0;
+	flex-wrap: 0;
+	overflow: initial;
+	width: 20%;
 	background-color: rgb(222, 250, 234);
 	border-style: solid;
 	border-width: 2px;
-	border-radius: 10px;
+	border-radius: 5px;
 	border-color: rgb(11, 194, 103) rgb(8, 83, 46) rgb(8, 83, 46) rgb(11, 194, 103);
 	display: inline-block;
 	text-align: left;
 	min-height: 300px;
 }
 
-.article1 .night,
-.article2 .night,
-.article3 .night{
-	width: 33%;
-	background-color: rgb(0, 43, 18);
-	border-style: solid;
-	border-width: 2px;
-	border-radius: 10px;
-	border-color: rgb(0, 3, 2);
-	display: inline-block;
-	text-align: left;
-	min-height: 300px;
+/*选取文章区除第一个之外的所有子元素*/
+.article_area .main_articles:not(:first-child) {
+	margin-left: 0.5em;
 }
 
-.article2 ,
-.article3 {
-	margin-left: 1em;
+@media screen and (max-width: 835px) {
+	.article_area .main_articles:not(:first-child) {
+		margin-left: 0.4em;
+	}
 }
 
 h5 {
-	font-size: 25px;
-	margin-top: 1em;
+	font-size: 20px;
+	margin-top: 0.5em;
 	padding-left: 15px;
 }
 
@@ -163,7 +195,7 @@ h5 {
 	color: grey;
 	font-size: 8px;
 	padding-left: 15px;
-	margin-top: -5em;
+	margin-top: -4em;
 }
 
 .arcs {

@@ -34,10 +34,10 @@
 				</p>
 				<hr />
 				
-				<h3 id="intro_1" class="scriptum">本服务器基于百度智能云</h3>
+				<h3 id="intro_1" class="scriptum">本服务器基于指点云</h3>
 				<p id="intro_2" class="scriptum">
-					配置：Xeon Gold 6271C 1C2T，4GB DDR4，6Mbps<br>
-					版本及服务端：1.19.3 Purpur<br>
+					配置：Xeon E5-2680v2 2Cores，4GB DDR3，10Mbps<br>
+					版本及服务端：1.19.4 Purpur<br>
 					使用插件：Spark，FartherViewDistance，Geyser，GeyserHacks，eBackup，LaggRemover，Dynmap，Via三件套，轻量自动公告，SkinRestorer，BlessingSkinSync,ProtocalLib,AuthMeReloaded<br>
 				</p>
 				
@@ -47,8 +47,7 @@
 					2.生物生成最大数降低。<br>
 					3.可以骑某些生物。<br>
 					4.世界边界为8192格。<br>
-					5.DeepDark及古城生成概率缩小至¼。<br>
-					6.自动公告插件会发出骂Bugjump的公告。<br>
+					5.自动公告插件会发出骂Bugjump的公告。<br>
 				</p>
 				
 				<h3 id="intro_5" class="scriptum">服务器玩法：</h3>

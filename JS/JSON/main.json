@@ -75,6 +75,12 @@
 		"English": "Feedback",
 		"正體中文": "反饋"
 	},
+	"earth": {
+		"简体中文": "🌏",
+		"English": "🌍",
+		"正體中文": "🌏",
+		"america": "🌎"
+	},
 	"donate_1": {
 		"简体中文": "自愿赞助",
 		"English": "Voluntary Donation",
@@ -111,14 +117,14 @@
 		"正體中文": "伺服器介紹"
 	},
 	"intro_1": {
-		"简体中文": "本服务器基于百度智能云",
-		"English": "Our server is based on Baidu Smart Cloud",
+		"简体中文": "本服务器基于指点云",
+		"English": "Our server is based on Zhidian Clound",
 		"正體中文": "本伺服器基於「百度智能雲」"
 	},
 	"intro_2": {
-		"简体中文": "配置：Xeon Gold 6271C 1C2T，4GB DDR4，6Mbps<br>版本及服务端：1.19.4 Purpur<br>使用插件：Spark，FartherViewDistance，Geyser，GeyserHacks，eBackup，LaggRemover，Dynmap，Via三件套，轻量自动公告，SkinRestorer，BlessingSkinSync,ProtocalLib,AuthMeReloaded<br>",
-		"English": "Hardware: CPU:Xeon Gold 6271C 1C2T;RAM:4GB;Network:6Mbps<br>Software:Minecraft Server:Purpur 1.19.4<br>Plugins:Spark,FartherViewDistance,Geyser,GeyserHacks,eBackup,LaggRemover,Dynmap,ViaverSeries,LiteAnnounce,SkinRestorer,BlessingSkinSync,ProtocalLib,Authme<br>",
-		"正體中文": "硬體：<br>中央處理器：志強金牌6271C單核心雙線程<br>內記憶體：4GB DDR4<br>網路：6Mbps<br>軟體：麥塊伺服端版本：1.19.4 Purpur<br>伺服端插體：Spark，FartherViewDistance，Geyser，GeyserHacks，eBackup，LaggRemover，Dynmap，Via三件套，輕量自動公告，SkinRestorer，BlessingSkinSync,ProtocalLib,AuthMeReloaded<br>"
+		"简体中文": "配置：Xeon E5-2680v2 2C2T，4GB DDR3，10Mbps<br>版本及服务端：1.20.1 Purpur<br>使用插件：Spark，FartherViewDistance，Geyser，GeyserHacks，eBackup，LaggRemover，Dynmap，Via三件套，轻量自动公告，SkinRestorer，BlessingSkinSync,ProtocalLib,AuthMeReloaded<br>",
+		"English": "Hardware: CPU:Xeon E5-2680v2 2C2T;RAM:4GB DDR3;Network:10Mbps<br>Software:Minecraft Server:Purpur 1.20.1<br>Plugins:Spark,FartherViewDistance,Geyser,GeyserHacks,eBackup,LaggRemover,Dynmap,ViaverSeries,LiteAnnounce,SkinRestorer,BlessingSkinSync,ProtocalLib,Authme<br>",
+		"正體中文": "硬體：<br>中央處理器：志強E5-2680v2雙核心雙線程<br>內記憶體：4GB DDR3<br>網路：10Mbps<br>軟體：麥塊伺服端版本：1.20.1 Purpur<br>伺服端插體：Spark，FartherViewDistance，Geyser，GeyserHacks，eBackup，LaggRemover，Dynmap，Via三件套，輕量自動公告，SkinRestorer，BlessingSkinSync,ProtocalLib,AuthMeReloaded<br>"
 	},
 	"intro_3": {
 		"简体中文": "改动：",
@@ -126,9 +132,9 @@
 		"正體中文": "變更："
 	},
 	"intro_4": {
-		"简体中文": "1.怪物生成半径变为一半。<br>2.生物生成最大数降低。<br>3.可以骑某些生物。<br>4.世界边界为8192格。<br>5.自动公告插件会发出骂Bugjump的公告。<br>",
-		"English": "1.The range of Mob generation is as a half as default.<br>2.The max amount of mobs is reduced.<br>3.Player can ride on more entitiies,not just those in Vanilla.<br>4.The borders of each dimension are reduced to 8192blocks.<br>5.Player will receive an announcement of the OP's complaints to Mojang.<br>",
-		"正體中文": "1.怪物生成半徑減為一半。<br>2.實體最大數降低。<br>3.玩家可以騎上某些原版不能騎行的實體。<br>4.世界邊際調整為8192格。<br>5.輕量自動公告插體會定時發出辱罵Mojang的文本。<br>"
+		"简体中文": "1.怪物生成半径变为一半。<br>2.生物生成最大数降低。<br>3.可以骑某些生物。<br>4.世界边界为6666格。<br>5.自动公告插件会发出骂Bugjump的公告。<br>",
+		"English": "1.The range of Mob generation is as a half as default.<br>2.The max amount of mobs is reduced.<br>3.Player can ride on more entities,not just those in Vanilla.<br>4.The borders of each dimension are reduced to 6666 blocks.<br>5.Player will receive an announcement of the OP's complaints to Mojang.<br>",
+		"正體中文": "1.怪物生成半徑減為一半。<br>2.實體最大數降低。<br>3.玩家可以騎上某些原版不能騎行的實體。<br>4.世界邊際調整為6666格。<br>5.輕量自動公告插體會定時發出辱罵Mojang的文本。<br>"
 	},
 	"intro_5": {
 		"简体中文": "服务器內容：",
@@ -221,9 +227,9 @@
 		"正體中文": "因本服採用了極限模式，原則上玩家死後不能復活。但因為本服玩家甚少，為防止玩家流失，本服會根據實情進行如下處理：<br><br>①若玩家非正常死亡，不會有任何懲罰，檔案將恢復。<br>②若玩家正常死亡，可向管理員申請復活，玩家需銷毀八个不死圖騰及两件裝備(盔甲、工具和武器)。復活後，生命上限永久-2(可累計)。"
 	},
 	"rules_6": {
-		"简体中文": "<b>请各位玩家玩家遵守规则，若有异议或补充，请向服主反馈，发现有人违规，请向服主汇报，谢谢！</b>",
-		"English": "",
-		"正體中文": ""
+		"简体中文": "<b>请各位玩家遵守规则，若有异议或补充，请向服主反馈，发现有人违规，请向服主汇报，谢谢！</b>",
+		"English": "<b>Please follow these rules,if you have any opinion,you can tell us by e-mail.If you've found cheating,please report it to us.THANKS!</b>",
+		"正體中文": "<b>請各位玩家遵守規章，如有異議或補充，請反饋給管理員。如發現違規情況，請及時匯報，謝謝！</b>"
 	},
 	"join_1": {
 		"简体中文": "服务器官方QQ群：650410730",
@@ -231,19 +237,19 @@
 		"正體中文": "伺服器QQ群：650410730"
 	},
 	"join_2": {
-		"简体中文": "服务器IP端口列表",
-		"English": "IP & Ports",
-		"正體中文": "伺服器IP及埠列表"
+		"简体中文": "服务器地址端口列表",
+		"English": "Address & Ports",
+		"正體中文": "伺服器地址及埠列表"
 	},
 	"join_3_1": {
 		"简体中文": " 名称及版本 ",
 		"English": "Names & Versions",
-		"正體中文": "名稱及版本"
+		"正體中文": " 名稱及版本 "
 	},
 	"join_3_2": {
-		"简体中文": " IP地址 ",
-		"English": "IP Addr.",
-		"正體中文": "IP地址"
+		"简体中文": " 地址 ",
+		"English": "Addr.",
+		"正體中文": " 地址 "
 	},
 	"join_3_3": {
 		"简体中文": " 端口 ",
@@ -266,9 +272,9 @@
 		"正體中文": " 否 "
 	},
 	"join_4_5": {
-		"简体中文": " 是，1.7～1.19.X ",
+		"简体中文": " 是，1.7～1.20.X ",
 		"English": "Yes,1.7+ Any",
-		"正體中文": " 是，1.7～1.19.X"
+		"正體中文": " 是，1.7～1.20.X"
 	},
 	"join_5_4": {
 		"简体中文": " 否 ",
@@ -306,9 +312,9 @@
 		"正體中文": "一個破敗窮酸的伺服器"
 	},
 	"main_20": {
-		"简体中文": "The Edenland是一个存档已有4年历史的破败穷酸<br>服务器，这里除了咸鱼没有别的玩家，所以服务器<br>建设依旧很落后",
-		"English": "The Edenland is a poor Minecraft Server with a four-years-old save.Here's no players except those almost never online.",
-		"正體中文": "The Edenland為一個檔案已有四秊歷史的破敗窮酸<br>伺服器，這裡除了死魚沒有別的玩家，所以伺服器<br>建設依舊很落後"
+		"简体中文": "The Edenland是一个存档已有接近5年历史的破败穷酸<br>服务器，这里除了咸鱼没有别的玩家，所以服务器<br>建设依旧很落后",
+		"English": "The Edenland is a poor Minecraft Server<br>with a almost five-years-old save.Here's no players<br>except those almost never online.",
+		"正體中文": "The Edenland為一個檔案已有接近五秊歷史的破敗窮酸<br>伺服器，這裡除了死魚沒有別的玩家，所以伺服器<br>建設依舊很落後"
 	},
 	"main_30": {
 		"简体中文": "<a href='introduction.html'>服务器介绍<span></span></a>",
@@ -321,24 +327,24 @@
 		"正體中文": "<a href='join.html'>加入伺服器<span></span></a>"
 	},
 	"main_AT": {
-		"简体中文": "*服务器文章*",
-		"English": "*Articles*",
-		"正體中文": "*伺服器文章*"
-	},
-	"main_A1": {
-		"简体中文": "<h5>网页测试中</h5><p class='date'>2023</p><p class='arcs'>哼哼哼啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p>",
-		"English": "<h5>test</h5><p class='date'>2023</p><p class='arcs'>test</p>",
-		"正體中文": "<h5>測試</h5><p class='date'>2023</p><p class='arcs'>測試</p>"
-	},
-	"main_A2": {
-		"简体中文": "<h5>网页测试中</h5><p class='date'>2023</p><p class='arcs'>测试用</p>",
-		"English": "<h5>test</h5><p class='date'>2023</p><p class='arcs'>test</p>",
-		"正體中文": "<h5>測試</h5><p class='date'>2023</p><p class='arcs'>測試</p>"
+		"简体中文": "*服务器公告*",
+		"English": "*Announcement*",
+		"正體中文": "*伺服器公示*"
 	},
 	"main_A3": {
-		"简体中文": "<h5>网页测试中</h5><p class='date'>2023</p><p class='arcs'>这一段文字只是测试用的</p>",
-		"English": "<h5>test</h5><p class='date'>2023</p><p class='arcs'>test</p>",
-		"正體中文": "<h5>測試</h5><p class='date'>2023</p><p class='arcs'>測試</p>"
+		"简体中文": "<h5>服务器MC端已升级至1.20.1</h5><p class='date'>2023/6/14</p><p class='arcs'>同标题。</p>",
+		"English": "<h5>Server updated to 1.20.1</h5><p class='date'>2023/6/14</p><p class='arcs'>~</p>",
+		"正體中文": "<h5>伺服器MC端已升級至1.20.1</h5><p class='date'>2023/6/14</p><p class='arcs'>同標題。</p>"
+	},
+	"main_A2": {
+		"简体中文": "<h5>服务器MC端已升级至1.20</h5><p class='date'>2023/6/10</p><p class='arcs'>同标题。</p>",
+		"English": "<h5>Server updated to 1.20</h5><p class='date'>2023/6/10</p><p class='arcs'>~</p>",
+		"正體中文": "<h5>伺服器MC端已升級至1.20</h5><p class='date'>2023/6/10</p><p class='arcs'>同標題。</p>"
+	},
+	"main_A1": {
+		"简体中文": "<h5>服务器已搬迁</h5><p class='date'>2023/06/09</p><p class='arcs'>服务器已搬迁至香港指点云，并已实装域名和SSL证书。</p>",
+		"English": "<h5>The location of the server has been CHANGED</h5><p class='date'>2023/06/09</p><p class='arcs'>Our server has been moved to HK Zhidian Cloud,installed domain name and SSL</p>",
+		"正體中文": "<h5>伺服器已搬遷</h5><p class='date'>2023/06/09</p><p class='arcs'>伺服器已搬遷至香港指點云，並已實裝域名和SSL證書。</p>"
 	},
 	"main_HT": {
 		"简体中文": "*服务器历史*",
@@ -367,7 +373,7 @@
 	},
 	"main_H5": {
 		"简体中文": "首次开发网站",
-		"English": "Starting develop website.",
+		"English": "Starting to develop website.",
 		"正體中文": "初次開發網站"
 	},
 	"main_H6": {
@@ -380,9 +386,64 @@
 		"English": "The layout of new website is completed.",
 		"正體中文": "完成新版網頁佈局"
 	},
+	"main_H8": {
+		"简体中文": "实装域名和SSL证书",
+		"English": "Installed domain name and SSL certificate",
+		"正體中文": "實裝域名和SSL證書"
+	},
 	"main_65535": {
 		"简体中文": "访问旧版网页",
 		"English": "View the old webpages.",
 		"正體中文": "前往舊版網頁"
+	},
+	"gallery_0": {
+		"简体中文": "画廊",
+		"English": "Gallery:",
+		"正體中文": "畫廊："
+	},
+	"gallery_1": {
+		"简体中文": "站长头像：",
+		"English": "Rington's Profile",
+		"正體中文": "站長頭像："
+	},
+	"gallery_2": {
+		"简体中文": "网站LOGO：",
+		"English": "LOGO:",
+		"正體中文": "網站LOGO："
+	},
+	"gallery_3": {
+		"简体中文": "服务器截图一览：",
+		"English": "Screenshots:",
+		"正體中文": "伺服器截圖："
+	},
+	"files_0": {
+		"简体中文": "公开文件",
+		"English": "Files:",
+		"正體中文": "公開檔案："
+	},
+	"files_1": {
+		"简体中文": "服务器使用设备记录",
+		"English": "Device History",
+		"正體中文": "伺服器使用設備記錄："
+	},
+	"files_2": {
+		"简体中文": "服务器重要地点",
+		"English": "Important Locations",
+		"正體中文": "伺服器重要地點："
+	},
+	"files_3": {
+		"简体中文": "服务器资金记录",
+		"English": "Bill",
+		"正體中文": "伺服器流水賬："
+	},
+	"files_4": {
+		"简体中文": "服务器玩家列表",
+		"English": "Player list",
+		"正體中文": "伺服器玩家列表："
+	},
+	"files_5": {
+		"简体中文": "服务器版本历史",
+		"English": "Version History",
+		"正體中文": "伺服器版本歷史："
 	}
 }

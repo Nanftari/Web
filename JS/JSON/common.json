@@ -1,0 +1,78 @@
+{
+	"//" : "这个文件储存了通用页面(webpage_common文件夹下)所有页面和子页面的语言文本信息",
+	"示例": {
+		"简体中文": "",
+		"English": "",
+		"正體中文": ""
+	},
+	"feedback_0": {
+		"简体中文": "问题反馈",
+		"English": "Feedback",
+		"正體中文": "問題反饋"
+	},
+	"feedback_1": {
+		"简体中文": "<a href='../index.html'><button class='button1'><span>返回</span><br>Back</button></a>",
+		"English": "<a href='../index.html'><button class='button1'><span>Back</span><br>Back</button></a>",
+		"正體中文": "<a href='../index.html'><button class='button1'><span>返回</span><br>Back</button></a>"
+	},
+	"feedback_2": {
+		"简体中文": "您的邮箱",
+		"English": "Email Addr.",
+		"正體中文": "您的信箱"
+	},
+	"feedback_3": {
+		"简体中文": "反馈内容",
+		"English": "Content",
+		"正體中文": "反饋內容"
+	},
+	"feedback_4": {
+		"简体中文": "反馈对象",
+		"English": "Object",
+		"正體中文": "反饋物件"
+	},
+	"feedback_5": {
+		"简体中文": "网站",
+		"English": "Website",
+		"正體中文": "網站"
+	},
+	"feedback_6": {
+		"简体中文": "服务器",
+		"English": "Server",
+		"正體中文": "伺服器"
+	},
+	"feedback_7": {
+		"简体中文": "<input type='checkbox' name='terms'>我已阅读并遵守<a href='web_intro.html'>网站说明</a>",
+		"English": "<input type='checkbox' name='terms'>I've read and will obey the<a href='web_intro.html'>Website Info</a>",
+		"正體中文": "<input type='checkbox' name='terms'>我已閱讀並將遵守<a href='web_intro.html'>網站說明</a>"
+	},
+	"feedback_8": {
+		"简体中文": "提交反馈",
+		"English": "Send",
+		"正體中文": "提交反饋"
+	},
+	"message_0": {
+		"简体中文": "博客留言",
+		"English": "Send message",
+		"正體中文": "部落格留言"
+	},
+	"message_1": {
+		"简体中文": "您的邮箱",
+		"English": "Email Addr.",
+		"正體中文": "您的信箱"
+	},
+	"message_2": {
+		"简体中文": "留言内容",
+		"English": "Content",
+		"正體中文": "留言內容"
+	},
+	"message_3": {
+		"简体中文": "<input type='checkbox' name='terms'>我已阅读并遵守<a href='web_intro.html'>网站说明</a>",
+		"English": "<input type='checkbox' name='terms'>I've read and will obey the<a href='web_intro.html'>Website Info</a>",
+		"正體中文": "<input type='checkbox' name='terms'>我已閱讀並將遵守<a href='web_intro.html'>網站說明</a>"
+	},
+	"message_4": {
+		"简体中文": "发送留言",
+		"English": "Send",
+		"正體中文": "發送留言"
+	}
+}

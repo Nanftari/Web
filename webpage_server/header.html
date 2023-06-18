@@ -1,5 +1,5 @@
 <!--标题栏-->
-			<header id="header" class="header">
+			<header id="header" class="header dayNightSeparated">
 				<p class="headContent">
 					<!--开关侧边栏的小按钮-->
 				<div class="openButton headMargin" id="sidebarButton" onclick="controllNav(), changeSidebar()">
@@ -15,8 +15,8 @@
 					<a id="header_2" href="../webpage_blog/index.html" class="headHyperlink scriptum" target="_blank">博客</a>
 					<a id="header_3" href="../webpage_forum/" class="headHyperlink scriptum" target="_blank">论坛</a>
 					<a id="header_4" href="../webpage_common/feedback.html" class="headHyperlink scriptum" target="_blank">反馈</a>
-					<a onclick="checkLanguageList()" class="headHyperlink">Lang<span id="headerTriangle">-</span></a>
-					<a onclick="dayNightSwitch()" class="headHyperlink">Day -- Night</a>
+					<a onclick="checkLanguageList()" id='earth' class="scriptum headHyperlink">🌏<span id="headerTriangle"></span></a>
+					<!-- <a onclick="dayNightSwitch()" class="headHyperlink">DN</a> -->
 				</div>
 				</p>
 			</header>

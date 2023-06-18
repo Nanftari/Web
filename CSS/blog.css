@@ -65,7 +65,7 @@ h1,.headHyperlink {
 
 .articles {
 	margin-left: 2em;
-	height: 100vh;
+	height: 75vh;
 	box-sizing: border-box;
 	display: inline-block;
 	background-color: white;
@@ -104,6 +104,9 @@ h2 {
 	margin-left: 20px;
 	width: 85%;
 	height: 25%;
+}
+#warning {
+	background-color: rgb(216, 33, 33);
 }
 
 .logs:hover {
